@@ -1,0 +1,127 @@
+.sectionMinhaLista {
+	background-color: white;
+	width: 100%;
+	padding: 4rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: flex-start;
+}
+
+.sectionMinhaLista .conteudoMinhaLista {
+	width: 100%;
+	max-width: 50vw;
+	margin: auto;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: flex-start;
+}
+
+.conteudoMinhaLista h1 {
+	font-size: 2rem;
+	font-weight: 600;
+	color: var(--colorPrimary);
+	margin: 0;
+	margin-bottom: 2rem;
+	border-bottom: solid 1px var(--gray5);
+	width: 100%;
+}
+
+.conteudoMinhaLista ul {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: flex-start;
+	gap: 5rem;
+	width: 100%;
+}
+
+.conteudoMinhaLista ul li {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: flex-start;
+	gap: 0;
+	width: 100%;
+	border: solid 1px var(--gray5);
+	border-radius: .5rem;
+}
+
+.conteudoMinhaLista ul li img {
+	width: 150px;
+	height: 100%;
+	border-radius: .5rem;
+}
+
+.conteudoMinhaLista ul li .titleDescricao {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: flex-start;
+	gap: .5rem;
+	width: 100%;
+	padding: 2rem;
+	height: 100%;
+}
+
+.titleDescricao .title {
+	font-size: 1rem;
+	font-weight: 600;
+	margin: 0;
+	color: var(--colorSecondary);
+}
+
+.titleDescricao .descricao {
+	font-size: .9rem;
+	font-weight: 500;
+	margin: 0;
+	margin-bottom: 1rem;
+	color: var(--colorPrimary);
+	line-height: 1.3rem;
+	text-align: justify;
+}
+
+.titleDescricao .btnsFilmeLista {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+	align-items: center;
+	width: 100%;
+	gap: 1rem;
+}
+
+.titleDescricao .btnsFilmeLista a {
+	background-color: var(--colorTerciary);	
+	color: white;
+	text-decoration: none;
+	font-size: .75rem;
+	font-weight: 600;
+	padding: .5rem 1.5rem;
+	border-radius: 2rem;
+	text-transform: uppercase;
+	transition: background-color .2s ease-in-out;
+}
+
+.titleDescricao .btnsFilmeLista a:hover {
+	background-color: var(--colorSecondary);
+}
+
+.titleDescricao .btnsFilmeLista button {
+	background-color: white;
+	border: none;
+	color: var(--gray1);
+	text-decoration: none;
+	font-size: .75rem;
+	font-weight: 600;
+	padding: .5rem 1.5rem;
+	border-radius: 2rem;
+	text-transform: uppercase;
+	transition: background-color .2s ease-in-out;
+	cursor: pointer;
+}
+
+.titleDescricao .btnsFilmeLista button:hover {
+	background-color: var(--gray5);
+}
+

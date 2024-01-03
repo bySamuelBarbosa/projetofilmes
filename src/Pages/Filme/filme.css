@@ -1,0 +1,136 @@
+.loadFilme {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    max-width: 70vw;
+    margin: 0 auto;
+    box-sizing: border-box;
+    padding: 4rem;
+}
+
+.containerCima {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 400px;
+}
+
+.containerCima .cartazFilme {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 450px;
+    overflow: hidden;
+    position: relative;
+    border-radius: 2rem 2rem 0 0;
+}
+
+.containerCima .cartazFilme img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 2rem 2rem 0 0;
+}
+
+.containerBaixo {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 1rem;
+    padding: 1rem 2rem;
+    width: 100%;
+    border-radius: 2rem;
+    background-color: white;
+    box-shadow: 0 0 10px 0 rgb(0, 0, 0, .2);
+    position: relative;
+    top: -30px;
+}
+
+
+.containerBaixo h1 {
+    font-size: 2.5rem;
+    font-weight: 600;
+    color: var(--colorSecondary);
+    font-family: sans-serif;
+    border-bottom: solid 1px #e1e1e1;
+    width: 100%;
+    line-height: 4rem;
+}
+
+.containerBaixo h3 {
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--colorPrimary);
+    font-family: sans-serif;
+    width: 100%;
+    margin: 0;
+}
+
+.containerBaixo .sinopseFilme {
+    font-size: .9rem;
+    font-weight: 400;
+    color: #3e3e3e;
+    line-height: 1.5rem;
+    margin: 0;
+}
+
+.containerBaixo .avaliacaoFilme {
+    font-size: 1rem;
+    font-weight: 600;
+    color: #2e2e2e;
+    
+}
+
+.containerBaixo .avaliacaoFilme span {
+    font-size: .9rem;
+    font-weight: 400;
+    color: #a1a1a1;
+}
+
+.containerBaixo .area-buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 1rem;
+    margin: 1rem 0;
+}
+
+.containerBaixo .area-buttons button {
+    background-color: var(--colorTerciary);
+    color: white;
+    border: none;
+    border-radius: 2rem;
+    padding: .5rem 1.5rem;
+    font-size: .8rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: background-color .2s ease-in-out;
+}
+
+.containerBaixo .area-buttons button:hover {
+    background-color: var(--colorSecondary);
+}
+
+.containerBaixo .area-buttons a {
+    background-color: var(--colorTerciary);
+    color: white;
+    border: none;
+    border-radius: 2rem;
+    padding: .5rem 1.5rem;
+    font-size: .8rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: background-color .2s ease-in-out;
+    text-decoration: none;
+}
+
+.containerBaixo .area-buttons a:hover {
+    background-color: var(--colorSecondary);
+}

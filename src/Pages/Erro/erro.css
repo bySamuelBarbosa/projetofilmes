@@ -1,0 +1,38 @@
+.not-found {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 4rem 0;
+    width: 100%;
+    height: calc(100vh - 60px);
+}
+
+.not-found h1 {
+    color: var(--colorSecondary);
+    font-size: 8rem;
+    font-weight: 600;
+}
+
+.not-found h2 {
+    color: var(--colorPrimary);
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.not-found a {
+    margin: 1rem 0;
+    background-color: var(--colorSecondary);
+    padding: .5rem 2rem;
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+    font-size: 1rem;
+    border-radius: 2rem;
+    border: solid 1px var(--colorTerciary);
+    transition: border-color .15s ease-in-out;
+}
+
+.not-found a:hover {
+    border-color: white;
+}
